@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    <h1 id="title">The Calculator</h1>
     <div class="calculator">
         <form name="calculator">
             <div class="numbers">
@@ -31,8 +32,8 @@
                 <input type="button" value="2" onclick="">
             </div>
             <div class="numbers">
-                <input type="button" value="1" onclick="">
-                <input type="button" value="0" onclick="">
+                <input id="one" type="button" value="1" onclick="">
+                <input id = "zero" type="button" value="0" onclick="add()">
                 <input type="button" value="=" onclick="">
                 <input type="button" value="&times" onclick="">
             </div>
@@ -44,7 +45,7 @@
 
         </form>
     </div>
-
+<script src="index.js"></script>
 </body>
 
 </html>
